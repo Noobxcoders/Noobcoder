@@ -8,7 +8,7 @@
         "pyrogram"
     ],
     "website": "https://t.me/Noobxcoders",
-    "repository": "https://github.com/Noobxcoders/Noobcoders-",
+    "repository": "https://github.com/Noobxcoders/Noobcoder",
     "success_url": "https://t.me/Noobxcoders",
     "env": {
         "API_ID": {
