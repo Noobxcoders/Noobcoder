@@ -11,7 +11,7 @@ from PIL import Image, ImageChops, ImageOps, ImageDraw, ImageEnhance, ImageFilte
 from youtubesearchpython.__future__ import VideosSearch
 
 from Process.assets import thumbs, colors
-from eSport.config import YOUTUBE_IMG_URL
+from noobcoder.config import YOUTUBE_IMG_URL
 
 
 
