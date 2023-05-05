@@ -8,7 +8,7 @@ from pyrogram import filters
 
 from pyrogram.types import Message
 
-from noobcoder.noobcoder import client as USER
+from noobcoder.handler import client as USER
 
 PMSET =True
 
