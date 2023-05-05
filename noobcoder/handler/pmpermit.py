@@ -2,7 +2,7 @@ from pyrogram import Client
 
 import asyncio
 
-from noobcoder.config import SUDO_USERS, PMPERMIT, OWNER_NAME, BOT_NAME, UPDATES_CHANNEL, GROUP_SUPPORT
+from noobcoder.config import SUDO_USERS, OWNER_NAME, BOT_NAME, UPDATES_CHANNEL, GROUP_SUPPORT
 
 from pyrogram import filters
 
