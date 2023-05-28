@@ -1,4 +1,4 @@
-from cache.main import bot
+from anime.main import bot
 from pyrogram import filters
 
 
