@@ -1,11 +1,11 @@
 from Process.Cache.admins import admins
 from anime.main import call_py
 from pyrogram import filters
-from cache.decorators import authorized_users_only
-from cache.filters import command, other_filters
-from cache.queues import QUEUE, clear_queue
-from cache.main import bot as Client
-from cache.utils import skip_current_song, skip_item
+from anime.decorators import authorized_users_only
+from anime.filters import command, other_filters
+from anime.queues import QUEUE, clear_queue
+from anime.main import bot as Client
+from anime.utils import skip_current_song, skip_item
 from noobcoder.config import BOT_USERNAME, GROUP_SUPPORT, UPDATES_CHANNEL, IMG
 from pyrogram.types import (
     CallbackQuery,
