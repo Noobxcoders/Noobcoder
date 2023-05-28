@@ -1,4 +1,4 @@
-from cache.filters import command
+from anime.filters import command
 from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 from noobcoder.config import (
@@ -9,11 +9,11 @@ from noobcoder.config import (
     OWNER_NAME,
     UPDATES_CHANNEL,
 )
-from cache.filters import other_filters2
+from anime.filters import other_filters2
 from time import time
-from cache.filters import command
+from anime.filters import command
 from datetime import datetime
-from cache.decorators import authorized_users_only
+from anime.decorators import authorized_users_only
 
 START_TIME = datetime.utcnow()
 START_TIME_ISO = START_TIME.replace(microsecond=0).isoformat()
