@@ -4,9 +4,9 @@ import asyncio
 from noobcoder.config import ASSISTANT_NAME, BOT_USERNAME
 from noobcoder.inline import stream_markup, audio_markup
 from Process.design.chatname import CHAT_TITLE
-from cache.filters import command, other_filters
-from cache.queues import QUEUE, add_to_queue
-from cache.main import call_py, noobcoder as user
+from anime.filters import command, other_filters
+from anime.queues import QUEUE, add_to_queue
+from anime.main import call_py, noobcoder as user
 from pyrogram import Client
 from pyrogram.errors import UserAlreadyParticipant, UserNotParticipant
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
