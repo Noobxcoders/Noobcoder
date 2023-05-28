@@ -1,5 +1,5 @@
 from Process.Cache.admins import admins
-from cache.main import call_py
+from anime.main import call_py
 from pyrogram import filters
 from cache.decorators import authorized_users_only
 from cache.filters import command, other_filters
