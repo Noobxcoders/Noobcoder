@@ -12,13 +12,13 @@ import aiohttp
 from noobcoder.converter import convert
 import ffmpeg
 import requests
-from cache.fonts import CHAT_TITLE
+from anime.fonts import CHAT_TITLE
 from PIL import Image, ImageDraw, ImageFont
 from noobcoder.config import ASSISTANT_NAME, BOT_USERNAME
-from cache.filters import command, other_filters
-from cache.queues import QUEUE, add_to_queue
-from cache.main import call_py, noobcoder as user
-from cache.utils import bash
+from anime.filters import command, other_filters
+from anime.queues import QUEUE, add_to_queue
+from anime.main import call_py, noobcoder as user
+from anime.utils import bash
 from pyrogram import Client
 from pyrogram.errors import UserAlreadyParticipant, UserNotParticipant
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
