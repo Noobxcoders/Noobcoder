@@ -1,7 +1,7 @@
 import asyncio
 from os import path
 
-from cache.errors import FFmpegReturnCodeError
+from anime.errors import FFmpegReturnCodeError
 
 
 async def convert(file_path: str) -> str:
