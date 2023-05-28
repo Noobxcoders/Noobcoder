@@ -1,6 +1,6 @@
 import asyncio
 from pytgcalls import idle
-from cache.main import call_py, bot
+from anime.main import call_py, bot
 
 async def start_bot():
     print("[INFO]: sᴛᴀʀᴛɪɴɢ noobcoder ʙᴏᴛ ᴄʟɪᴇɴᴛ")
