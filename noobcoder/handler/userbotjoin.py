@@ -1,8 +1,8 @@
 import asyncio
 from noobcoder.config import BOT_USERNAME, SUDO_USERS
-from cache.decorators import authorized_users_only, sudo_users_only, errors
-from cache.filters import command, other_filters
-from cache.main import user as USER
+from anime.decorators import authorized_users_only, sudo_users_only, errors
+from anime.filters import command, other_filters
+from anime.main import user as USER
 from pyrogram import Client, filters
 from pyrogram.errors import UserAlreadyParticipant
 
