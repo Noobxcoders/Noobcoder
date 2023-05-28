@@ -1,6 +1,6 @@
 import logging
 from noobcoder.config import BOT_USERNAME
-from cache.filters import command, other_filters
+from anime.filters import command, other_filters
 from pyrogram import Client
 from pyrogram.types import (
     InlineKeyboardButton,
