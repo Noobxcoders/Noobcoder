@@ -5,10 +5,10 @@ import asyncio
 from PIL import Image
 from pyrogram.types import Message
 from pyrogram import filters, Client
-from cache.main import bot as app
+from anime.main import bot as app
 from noobcoder.config import SUDO_USERS as SUDOERS
-from cache.filters import command
-from cache.decorators import sudo_users_only
+from anime.filters import command
+from anime.decorators import sudo_users_only
  
 def testspeed(m):
     try:
