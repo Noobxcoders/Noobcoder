@@ -2,7 +2,7 @@ import os
 from pyrogram import filters, Client
 from telegraph import upload_file
 
-from cache.main import bot as app
+from anime.main import bot as app
 
 @app.on_message(filters.command(["telegraph", "tm", "tgm"]))
 async def telegraph(client, message):
