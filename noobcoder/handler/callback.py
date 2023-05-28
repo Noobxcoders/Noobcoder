@@ -1,5 +1,5 @@
 import yt_dlp
-from cache.queues import QUEUE
+from anime.queues import QUEUE
 from pyrogram import Client, filters
 from pyrogram.types import CallbackQuery, InlineKeyboardButton, InlineKeyboardMarkup
 from noobcoder.config import (
