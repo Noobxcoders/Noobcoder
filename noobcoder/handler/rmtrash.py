@@ -1,8 +1,8 @@
 import os
 from pyrogram import Client, filters
 from pyrogram.types import Message
-from cache.filters import command, other_filters
-from cache.decorators import sudo_users_only, errors
+from anime.filters import command, other_filters
+from anime.decorators import sudo_users_only, errors
 
 downloads = os.path.realpath("noobcoder/downloads")
 raw = os.path.realpath(".")
