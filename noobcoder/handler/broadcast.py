@@ -4,7 +4,7 @@ from pyrogram import Client, filters
 from pyrogram.types import Dialog, Chat, Message
 from pyrogram.errors import UserAlreadyParticipant
 
-from cache.main import bot as Ufo
+from anime.main import bot as Ufo
 from noobcoder.config import SUDO_USERS
 
 @Client.on_message(filters.command(["gcast"]))
